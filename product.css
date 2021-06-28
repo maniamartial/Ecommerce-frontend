@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrated&display=swap");
+.products{
+   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+  }
+  .products li{
+  flex: 1 1 29rem;
+  height: 40rem;
+  padding:1rem;
+  margin: 1rem;
+  background-color: red;
+  }
+  .product{
+   
+    justify-content: space-between;
+    flex-direction:column;
+    display: flex;
+   
+  }
+  .product img{
+      max-width:37rem;
+      max-height: 37rem;
+  }
+  .product-price{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+  .product-price div,
+  .product-price button{
+      text-align: center;
+      flex: 1;
+  }
+  .product-price div{
+      font-size: 2rem;
+  }
+  .button{
+      padding: 1rem;
+      border:0.1rem grey;
+      background-color: gold;
+      cursor: pointer;
+
+  }
+  .button:hover{
+border: rgb(63, 62, 62);
+box-shadow: 2px 2px grey;
+background-color: goldenrod;
+  }
+
+  /*Modal*/
+  .product-details{
+      display: flex;
+      flex: wrap;
+      justify-content: space-between;
+      max-height: 96vh;
+  }
+  .product-details img{
+      max-height: 100vh;
+      max-width: 46rem;
+      margin: 0 auto;
+  }
+  .product-details-description{
+      flex: 1 1;
+      margin: 1rem;
+  }
+  .close-modal{
+      position: absolute;
+      right: 1rem;
+      top: 2.5rem;
+      z-index: 1000;
+  }
+     
+  

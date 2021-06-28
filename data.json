@@ -1,0 +1,54 @@
+
+{
+    "products":[
+
+        {
+            "_id":"dress1",
+            "image":"/images/watertap.jpg",
+            "title":"From Milimani Uganda",
+            "description":"This water is clean",
+            "availableSizes":["X", "L"],
+            "price":29.9
+        },
+        {
+            "_id":"dress2",
+            "image":"/images/watertap.jpg",
+            "title":"From Milimani Uganda",
+            "description":"This water is clean",
+            "availableSizes":["XL", "L"],
+            "price":3.9
+        },
+        {
+            "_id":"dress3",
+            "image":"/images/watertap.jpg",
+            "title":"From Milimani Uganda",
+            "description":"This water is clean",
+            "availableSizes":["XXL", "L"],
+            "price":26
+        },
+        {
+            "_id":"dress4",
+            "image":"/images/watertap.jpg",
+            "title":"From Milimani Uganda",
+            "description":"This water is clean",
+            "availableSizes":["XXM", "M"],
+            "price":29.9
+        },
+        {
+            "_id":"dress5",
+            "image":"/images/watertap.jpg",
+            "title":"From Milimani Uganda",
+            "description":"This water is clean",
+            "availableSizes":["X", "S"],
+            "price":22.9
+        },
+        {
+            "_id":"dress6",
+            "image":"/images/watertap.jpg",
+            "title":"From Milimani Uganda",
+            "description":"This water is clean",
+            "availableSizes":["M", "XL"],
+            "price":23
+        }
+    ]
+}
